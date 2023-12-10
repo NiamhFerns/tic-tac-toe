@@ -2,7 +2,7 @@
 
 Cheap and cheerful implementation of Tic Tac Toe using Vue3 + Typescript.
 
-<iframe src="https://giphy.com/embed/wD7edcgIyFXgCCZS0t" width="480" height="270" frameBorder="0" class="giphy-embed"></iframe>
+![Alt Text](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3FyaXJ0bG5peDVzdmY1N3ZrN3YzYmI3anhoMDgwbWZsb29maWtqaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wD7edcgIyFXgCCZS0t/giphy.gif)
 
 ## Project Setup
 

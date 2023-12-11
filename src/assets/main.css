@@ -1,7 +1,7 @@
 @import './base.css';
 
 .game_board {
-  border: 1px solid #CCCCCC;
+  border: 1px solid var(--forground);
   width: fit-content;
 }
 
@@ -14,25 +14,24 @@
   max-width: 10rem;
   height: 10rem;
   max-height: 10rem;
-  color: inherit;
   border: 1px dashed black;
-  background-color: #CCCCCC;
+  background-color: var(--text);
   padding: 0;
   margin: 0;
   font: inherit;
   font-size: 3em;
-  color: #252525;
+  color: var(--background-med);
   cursor: pointer;
   outline: inherit;
 }
 
 .game_row button:hover {
-  background-color: #444444;
-  color: #CCCCCC;
+  background-color: var(--background-light);
+  color: var(--text);
 }
 .game_row button:disabled {
-  background-color: #CCCCCC;
-  color: #252525;
+  background-color: var(--forground);
+  color: var(--background-med);
 }
 
 header, main {
@@ -42,36 +41,34 @@ header, main {
 
 .reset_button {
   min-width: 30rem;
-  color: inherit;
-  border: 3px solid #CCCCCC;
-  background-color: #CCCCCC;
+  border: 3px solid var(--text);
+  background-color: var(--text);
   padding: 0.5rem 0;
-  margin: 0;
-  margin-top: 0.5rem;
+  margin: 0.5rem 0 0 0;
   font: inherit;
   font-size: 1.5em;
   color: #252525;
   cursor: pointer;
-  outline: 0px;
+  outline: 0;
 }
 .reset_button:hover {
   color: #CCCCCC;
-  background-color: #222222;
-  box-shadow: 5px 5px #CCCCCC;
+  background-color: var(--background-med);
+  box-shadow: 5px 5px var(--text);
   text-decoration: 2px underline;
 }
 
 .no_left {
-  border-left: 1px solid #CCCCCC !important;
+  border-left: 1px solid var(--forground) !important;
 }
 .no_right {
-  border-right: 1px solid #CCCCCC !important;
+  border-right: 1px solid var(--forground) !important;
 }
 .no_top {
-  border-top: 1px solid #CCCCCC !important;
+  border-top: 1px solid var(--forground) !important;
 }
 .no_bottom {
-  border-bottom: 1px solid #CCCCCC !important;
+  border-bottom: 1px solid var(--forground) !important;
 }
 
 .winner_winner {
@@ -81,6 +78,6 @@ header, main {
   margin: 0;
 }
 .winner_winner p {
-  border-bottom: 4px solid #CCCCCC;
-  border-top: 4px solid #CCCCCC;
+  border-bottom: 4px solid var(--forground);
+  border-top: 4px solid var(--forground);
 }

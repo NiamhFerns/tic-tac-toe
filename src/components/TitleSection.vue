@@ -17,11 +17,9 @@ h1 {
   font-weight: 500;
   font-size: 5rem;
   position: relative;
-  text-shadow: 3px 2px #676767;
+  text-shadow: 3px 2px var(--shadow);
   text-decoration: underline;
-  stroke: 5px #444444;
-  margin: 0;
-  margin-top: 5rem;
+  margin: 5rem 0 0 0;
   padding: 0;
 }
 
@@ -34,3 +32,4 @@ p {
   font-size: 1.5rem;
 }
 </style>
+
